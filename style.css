@@ -1,2 +1,63 @@
 body {
-background-color: salmon;}
+background-color: turquoise;}
+
+container {
+    position: relative;
+    display: inline-block;
+    
+    background-image: url(hands.jpeg);
+    background-size: contain;
+    border-radius: 10px;
+    margin: 0;
+    
+    width: 500px;
+    height: 300px;
+    
+    font-family: "Gill Sans", Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: 400;
+    color: black;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+h2 {
+	width: 150px;
+	text-align: center;
+	border: 1px solid salmon;
+}
+
+h3 {
+	text-align: center;
+	padding-top: 110px;
+	font-weight: 100;
+	color: salmon;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 400;
+	color: black;
+}
+
+
+.links {
+    width: 100%;
+    
+    display: inline-flex;
+    justify-content: space-around;
+	
+	padding-top: 20px;
+}
+
+.contact {
+    background-color: rgba(255,255,255,0.5);
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
