@@ -1,17 +1,22 @@
 body {
-background-color: turquoise;}
+	background-color: turquoise;
+	display: flex;
+	
+	padding-top: 50px;
+	
+}
 
 container {
-    position: relative;
+    
     display: inline-block;
     
     background-image: url(hands.jpeg);
     background-size: contain;
     border-radius: 10px;
-    margin: 0;
+    margin: 0 auto;
     
     width: 500px;
-    height: 300px;
+    
     
     font-family: "Gill Sans", Helvetica, sans-serif;
 }
