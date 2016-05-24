@@ -1,53 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
         
         <title>Anastasia Melnichenko</title>
+		
+		<meta name="viewport" description="init-scale=1">
+		
+		<link rel="stylesheet" href="sanitize.css">
         <link rel="stylesheet" href="style.css">
+        
     </head>
 	
 	<body>
-		<div class="self">
+		
+		<a href="#content">Skip to content</a>
+		
+<!--wraps around the whole site-->
+		
+		<div class="wrapper">
 			
-			
-			<div class="quotebubble">
-				<div class="bubble bubble1"></div>
-				<div class="bubble bubble2"></div>
-				<div class="quote">
+			<header>
+				
+				
+<!--logo stuff-->
+				
+				<a href="/" class="logo">
+					<img src="images/self.png" height="200px" alt="Anastasia Melnichenko">
+					<h2>Anastasia Melnichenko</h2>
+				</a>
+				
+				
+<!--navigation-->
+				
+				<nav>
 					<ul>
-						<li>keep it simple, stupid</li>
-						<li>stay hungry</li>
-						<li>less is more</li>
-						<li>know thy user</li>
-						<li>sometimes I think, someties I don't</li>
-					</ul>	
-				</div>
-			</div>
+						<li><a href="a">link</a></li>
+						<li><a href="a">link</a></li>
+						<li><a href="a">link</a></li>
+						<li><a href="a">link</a></li>
+					</ul>
+				</nav>
+				
+			</header>
 			
-			<div class="picture">
-				<img src="images/self.png" width="200px">
-			</div>
-		</div>
+<!--multiple projects starts here-->
 			
-			<div class="contact">
+			<section id="content" class="project">
+				<article>
+					<img src="" alt="">
+					<h3>Project title</h3>
+					<p>Project description</p>
+				</article>
+			
+				<article>
+					<img src="" alt="">
+					<h3>Project title</h3>
+					<p>Project description</p>
+				</article>
+			
+				<article>
+					<img src="" alt="">
+					<h3>Project title</h3>
+					<p>Project description</p>
+				</article>
+			
+				<article>
+					<a href="a">
+						<img src="" alt="">
+						<h3>Project title</h3>
+						<p>Project description</p>
+					</a>
+				</article>
+				
+			</section>
+			
+<!--single project-->
+			
+			<section class="project">
+				<h1>Project title</h1>
+				<p>project description</p>
+				<img src="" alt="">
+				<a href="http://www.project.com" class="external-link">Visit the website</a>
+			</section>
+			
+<!--cv-->
+			
+			<section class="CV">
 				<h1>Anastasia Melnichenko</h1>
-				<div class="movinghand">
-					<h2><a href="mailto:an.melnichenko@me.com"> contact me</a></h2>
-					<div class="hand"><img src="images/hand.png" width="140px"></div>
-				</div>
-			</div>
+				<p>my description</p>
+				<p>longer paragraph</p>
+				<ul>
+					<li>skill</li>
+					<li>skill</li>
+					<li>skill</li>
+					<li>skill</li>
+					<li>skill</li>
+				</ul>
+				
+				<h3>work experience</h3>
+				<ul>
+					<li>latest</li>
+					<li>older</li>
+				</ul>
+				
+				<ul>
+					<li><a href="">facebook</a></li>
+					<li><a href="">linkedin</a></li>
+					<li><a href="">twitter</a></li>
+				</ul>
+				
+			</section>
 			
-		
-		
-			<div class="social">
-				<h3><a href="https://www.linkedin.com/in/anastasia-melnichenko-5401b2121">LinkedIn</a></h3>
-                <h3><a href="https://www.behance.net/magenpie">Behance</a></h3>        
-                <h3><a href="https://www.instagram.com/magenpiegram/">Instagram</a></h3>
-              
-			</div>
+			<footer>
+				<p>Copyright &copy; 2016 made with &hearts; <a href="mailto:an.melnichenko@me.com">contact</a></p>
+			</footer>
 			
+		</div>
 	</body>
 	
 </html>
