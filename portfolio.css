@@ -468,3 +468,31 @@ p {
 
 }
 
+/*-----M E D I A-----*/
+@media (max-width: 800px) {
+  
+  
+  /*-----P R O J E C T   P A G E-----*/
+  .allworks {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .scroll {
+    height: 100%;
+  }
+  
+  .allworks p {
+  }
+  
+/*-----H O M E-----*/
+  
+  .intro {
+    display: block;
+    width: auto;
+  }
+  
+  .contact {
+  margin-top: -40px;
+}
+  
