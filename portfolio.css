@@ -474,8 +474,14 @@ p {
   
 /*-----P R O J E C T   P A G E-----*/
   .allworks {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   
   .scroll {
@@ -484,12 +490,17 @@ p {
   
   .allworks p{}
   
+  .project_description {
+    width: 600px;
+  }
+  
   
 /*-----H O M E-----*/
   
   .intro {
     display: block;
     width: auto;
+    height: 80vh;
   }
   
   .contact {
@@ -498,18 +509,44 @@ p {
 }
   
   .project {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    
     width: 100vw;
     height: auto;
+    
+    margin: 0 auto;
   
   }
+  
+
   
   .details {
   width: 100vw;
   
-  margin: auto;
+  margin: auto 0;
   padding: 0 50px 0 50px;
+
+}
+  
+  .social {
+    margin-top: 30vh;
+  }
+  
+  
 }
   
