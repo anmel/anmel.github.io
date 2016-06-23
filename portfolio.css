@@ -469,10 +469,10 @@ p {
 }
 
 /*-----M E D I A-----*/
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   
   
-  /*-----P R O J E C T   P A G E-----*/
+/*-----P R O J E C T   P A G E-----*/
   .allworks {
     display: flex;
     justify-content: center;
@@ -482,8 +482,8 @@ p {
     height: 100%;
   }
   
-  .allworks p {
-  }
+  .allworks p{}
+  
   
 /*-----H O M E-----*/
   
@@ -494,5 +494,22 @@ p {
   
   .contact {
   margin-top: -40px;
+  margin-left: 50%;
+}
+  
+  .project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: auto;
+  
+  }
+  
+  .details {
+  width: 100vw;
+  
+  margin: auto;
+  padding: 0 50px 0 50px;
 }
   
