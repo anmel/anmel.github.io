@@ -500,7 +500,7 @@ p {
   .intro {
     display: block;
     width: auto;
-    height: 80vh;
+    margin-bottom: 50px;
   }
   
   .contact {
@@ -531,6 +531,13 @@ p {
     
     margin: 0 auto;
   
+  }
+  .project_image {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+        -ms-flex-order: -1;
+            order: -1;
+    
   }
   
 
