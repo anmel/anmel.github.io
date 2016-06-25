@@ -527,9 +527,9 @@ p {
             justify-content: center;
     
     width: 100vw;
-    height: auto;
+    height: 600px;;
     
-    margin: 0 auto;
+    margin: 0 auto 30px 0;
   
   }
   .project_image {
@@ -552,8 +552,12 @@ p {
   
   .social {
     margin-top: 30vh;
+    width: auto;
   }
   
-  
+  .projects_home {
+    width: 100vw;
+    padding: 12%;
+  }
 }
   
