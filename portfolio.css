@@ -482,7 +482,11 @@ p {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: auto;
+  }
+  
+  .works img
+  {
+    min-width: 90vw;
   }
   
   .scroll {
@@ -502,6 +506,7 @@ p {
     display: block;
     width: auto;
     margin-bottom: 50px;
+    height: 80vw;
   }
   
   .contact {
