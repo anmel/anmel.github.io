@@ -475,6 +475,7 @@ p {
   .allworks {
   
     display: flex;
+    flex-direction: column;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
         -ms-flex-pack: center;
@@ -495,6 +496,11 @@ p {
   .project_description {
     width: 600px;
   }
+  
+  .allworks .project_description {
+    width: auto;
+  }
+  
   
   
 /*-----H O M E-----*/
