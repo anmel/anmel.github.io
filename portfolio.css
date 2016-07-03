@@ -260,7 +260,7 @@ h2:hover + div.hand {
 
 /*-----W O R K   P R E V I E W-----*/
 
-.allworks {
+.projects_home {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -272,7 +272,6 @@ h2:hover + div.hand {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100vw;
   
   
 }
@@ -474,9 +473,7 @@ p {
   
 /*-----P R O J E C T   P A G E-----*/
   .allworks {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
+  
     display: flex;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -506,8 +503,31 @@ p {
     display: block;
     width: auto;
     margin-bottom: 50px;
-    height: 80vw;
+    height: auto;
   }
+  
+  .intro .self {
+	display: inline-block;
+	width: 310px;
+}
+  
+  .intro img, .picture {
+  height: 100px;
+  width: 100px;
+}
+  
+  .bubble1 {
+	margin: 80px 0 0 30px;
+	width: 10px;
+	height: 10px;
+	z-index: 1;
+}
+
+  .bubble2 {
+  width: 15px;
+  height: 15px;
+	margin: 50px 0 0 3px;
+}
   
   .contact {
   margin-top: -40px;
@@ -558,6 +578,7 @@ p {
   
   .social {
     width: 100%;
+    margin-top: 20vh;
   }
   
   .hand {
@@ -566,7 +587,6 @@ p {
   
   .projects_home {
     width: 100vw;
-    padding: 12%;
   }
 }
   
