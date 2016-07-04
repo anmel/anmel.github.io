@@ -5,7 +5,6 @@ body {
 }
 
 
-
 /*-----I N T R O-----*/
 .intro {
 	width: 600px;
@@ -146,6 +145,7 @@ body {
 
 h2 {
   margin-top: -15px;
+  font-family: 'Raleway', sans-serif;
 }
 
 h2 a {
@@ -366,7 +366,15 @@ p {
 
 .info {
   display: inline-block;
+  width: 100%
   
+}
+
+.info h2 a{
+  float: right;
+  font-size: 12pt;
+  color: #FB5B05;
+  margin: 10px 30px;
 }
 
 .info .self {
@@ -450,7 +458,7 @@ p {
 }
 
 .works img {
-  width: 600px;
+  width: 700px;
   height: 100%;
   
   min-width: 400px;
@@ -594,5 +602,20 @@ p {
   .projects_home {
     width: 100vw;
   }
+}
+
+@media (min-width: 590px) {
+  .scroll {
+    max-width: 100%;
+    
+  }
+  
+  .works {
+    max-width: 100%;
+  }
+}
+
+.works img {
+  padding: 0 10px 10px 10px;
 }
   
