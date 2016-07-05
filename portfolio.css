@@ -590,6 +590,15 @@ p {
 
 }
   
+  .details h4 {
+    font-size: 20pt;
+    line-height: 50px;
+  }
+  
+  .details p {
+    height: 110px;
+  }
+  
   .social {
     width: 100%;
     margin-top: 20vh;
