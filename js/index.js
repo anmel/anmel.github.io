@@ -51,7 +51,7 @@ $(document).ready(function(){
         }
         var end = new Date().getTime();
         var fps = Math.round(1000/(end-start));
-        $('p').text(fps+' fps');
+        //$('p').text(fps+' fps');
         
         if (amount<1000 && fps>10) {
             na += amount*.01;
