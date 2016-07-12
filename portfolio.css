@@ -526,10 +526,7 @@ a h4:hover {
   .works img {
     min-width: 90vw;
   }
-  .scroll {
-    height: 100%;
-  }
-  .allworks p {}
+
   .project_description {
     width: 600px;
     position: relative;
@@ -542,7 +539,7 @@ a h4:hover {
     width: 100%;
     position: fixed;
     bottom: 1px;
-    padding: 0 5px;
+    padding: 0 1px;
   }
   /*-----H O M E-----*/
   .intro {
@@ -628,14 +625,12 @@ a h4:hover {
 }
 
 @media (min-width: 590px) {
-  .scroll {
-    max-width: 100%;
-  }
+  
   .works {
     max-width: 100%;
   }
-}
 
 .works img {
   padding: 0 10px 10px 10px;
+}
 }
