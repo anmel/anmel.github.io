@@ -495,6 +495,7 @@ footer {
 
 a h4 {
   color: dimgray;
+  -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
 
@@ -511,8 +512,15 @@ a h4:hover {
     position: relative;
   }
   .allworks {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -526,11 +534,10 @@ a h4:hover {
   .works img {
     min-width: 90vw;
   }
-
   .project_description {
     width: 600px;
     position: relative;
-    padding: 0;
+    padding: 0 0 30px 0;
   }
   .allworks .project_description {
     width: auto;
@@ -625,12 +632,10 @@ a h4:hover {
 }
 
 @media (min-width: 590px) {
-  
   .works {
     max-width: 100%;
   }
-
-.works img {
-  padding: 0 10px 10px 10px;
-}
+  .works img {
+    padding: 0 10px 10px 10px;
+  }
 }
