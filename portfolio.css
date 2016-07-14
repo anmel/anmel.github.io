@@ -1,5 +1,5 @@
 body {
-  background-image: url(images/bg%20bw.jpg);
+  background-image: url(images/bg.jpg);
   background-size: contain;
   background-repeat: repeat;
   background-color: #DF276B;
@@ -459,15 +459,16 @@ p {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  
   max-width: 790px;
   padding-top: 30px;
   padding-left: 300px;
 }
 
 .works img {
-  width: 700px;
-  min-width: 400px;
-  padding-bottom: 50px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
 }
 
 .project_description {
