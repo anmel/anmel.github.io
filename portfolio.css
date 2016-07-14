@@ -3,6 +3,8 @@ body {
   background-size: contain;
   background-repeat: repeat;
   background-color: #DF276B;
+  
+  min-height: 100vh;
 }
 
 
