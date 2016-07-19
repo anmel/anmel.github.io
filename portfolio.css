@@ -8,6 +8,8 @@ body {
 }
 
 
+
+
 /*-----I N T R O-----*/
 
 .intro {
@@ -63,11 +65,9 @@ body {
   width: 250px;
   height: 100px;
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   float: right;
@@ -280,10 +280,8 @@ h2:hover + div.hand {
 .social {
   width: 100%;
   display: -webkit-inline-box;
-  display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
   margin-top: 40vh;
@@ -326,14 +324,11 @@ h2:hover + div.hand {
 
 .projects_home {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: wrap;
   -ms-flex-flow: wrap;
   flex-flow: wrap;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
@@ -342,10 +337,9 @@ h2:hover + div.hand {
   width: 80vw;
   height: 300px;
   margin: auto 0;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
@@ -370,14 +364,11 @@ a img {
   width: calc(80vw - 300px);
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
   text-align: center;
@@ -478,14 +469,11 @@ p {
 .works {
   /*background-color:rgba(255,255,255,0.8);*/
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   
@@ -542,16 +530,13 @@ a h4:hover {
   }
   .allworks {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     padding: 0;
@@ -578,6 +563,10 @@ a h4:hover {
     padding: 0 1px;
   }
   /*-----H O M E-----*/
+  .social .btn {
+    width: 95px;
+  }
+  
   .intro {
     display: block;
     width: auto;
@@ -610,19 +599,15 @@ a h4:hover {
   }
   .project {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     width: 100vw;
@@ -632,7 +617,6 @@ a h4:hover {
   }
   .project_image {
     -webkit-box-ordinal-group: 0;
-    -webkit-order: -1;
     -ms-flex-order: -1;
     order: -1;
   }
