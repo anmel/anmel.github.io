@@ -380,7 +380,7 @@ h4 {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
   font-size: 30pt;
-  line-height: 60pt;
+  line-height: 30pt;
   margin: 0;
 }
 
@@ -391,8 +391,9 @@ p {
 
 .project p {
   margin: 0 auto;
+  padding-top: 20px;
   text-align: center;
-  height: 150px;
+  height: 130px;
   font-size: 12pt;
 }
 
@@ -495,6 +496,10 @@ p {
   padding: 150px 0;
 }
 
+.project_description p {
+  padding-top: 20px;
+}
+
 footer {
   width: 100%;
   position: fixed;
@@ -511,7 +516,7 @@ footer {
 }
 
 a h4 {
-  color: dimgray;
+  color: black;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
@@ -627,7 +632,7 @@ a h4:hover {
   }
   .details h4 {
     font-size: 20pt;
-    line-height: 50px;
+    line-height: 30px;
   }
   .details p {
     height: 110px;
