@@ -473,7 +473,9 @@ p {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-flow: row wrap;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -639,7 +641,7 @@ a h4:hover {
   }
   .social {
     width: 100%;
-    margin-top: 20vh;
+    margin-top: 10vh;
   }
   .hand {
     display: none;
