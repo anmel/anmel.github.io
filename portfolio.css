@@ -342,7 +342,8 @@ h2:hover + div.hand {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-color: white;
 }
 
@@ -485,10 +486,17 @@ p {
   padding-left: 300px;
 }
 
+
 .works img {
   width: 100%;
   height: auto;
   margin-bottom: 50px;
+  
+}
+
+.shadow img {
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2)
 }
 
 .project_description {
@@ -499,7 +507,7 @@ p {
 }
 
 .project_description p {
-  padding-top: 20px;
+  padding: 20px 20px 0 0;
 }
 
 footer {
@@ -559,6 +567,10 @@ a h4:hover {
     width: 600px;
     position: relative;
     padding: 0 0 30px 0;
+  }
+  
+  .project_description p {
+  padding: 20px 0 0 0;
   }
   .allworks .project_description {
     width: auto;
@@ -656,6 +668,6 @@ a h4:hover {
     max-width: 100%;
   }
   .works img {
-    padding: 0 10px 10px 10px;
+    margin: 10px 10px 10px px;
   }
 }
