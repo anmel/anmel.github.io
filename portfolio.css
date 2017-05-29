@@ -429,6 +429,12 @@ p {
   border-radius: 100px;
   background-color: white;
   border: dashed 3px lightgrey;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.info .self img:hover {
+  border: dashed 3px #89EAE0;
 }
 
 .contact_project p {
