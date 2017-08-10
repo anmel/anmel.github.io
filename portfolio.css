@@ -501,7 +501,7 @@ p {
 }
 
 .works iframe {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   
 }
 
@@ -574,6 +574,11 @@ a h4:hover {
   .works img {
     min-width: 90vw;
   }
+  .works iframe {
+    width: auto;
+    height: auto;
+  }
+  
   .project_description {
     width: 600px;
     position: relative;
