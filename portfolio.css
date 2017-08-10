@@ -575,7 +575,7 @@ a h4:hover {
     min-width: 90vw;
   }
   .works iframe {
-    width: auto;
+    width: 100%;
     height: auto;
   }
   
