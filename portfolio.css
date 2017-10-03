@@ -349,24 +349,22 @@ h2:hover + div.hand {
   background-color: white;
 }
 
-h5 {
+a h5 {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
   font-size: 30pt;
   letter-spacing: -5px;
   line-height: 30pt;
   margin: 20px 0 0 0;
+   float:right;
+  color: #FB5B05;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 
 }
 
 a h5:hover {
   color: #89EAE0;
-}
-a h5 {
-  float:right;
-  color: #FB5B05;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
 }
 
 a img {
