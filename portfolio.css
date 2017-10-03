@@ -334,17 +334,39 @@ h2:hover + div.hand {
 }
 
 .project {
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
   width: 80vw;
   height: 300px;
   margin: auto 0;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: white;
+}
+
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 30pt;
+  letter-spacing: -5px;
+  line-height: 30pt;
+  margin: 20px 0 0 0;
+
+}
+
+a h5:hover {
+  color: #89EAE0;
+}
+a h5 {
+  float:right;
+  color: #FB5B05;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 a img {
@@ -507,7 +529,7 @@ p {
 
 .shadow img {
   -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2)
+          box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
 }
 
 .project_description {
