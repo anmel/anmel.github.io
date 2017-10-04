@@ -400,7 +400,7 @@ a img {
 h4 {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
-  font-size: 30pt;
+  font-size: 25pt;
   line-height: 30pt;
   margin: 20px 0 0 0;
 }
@@ -564,6 +564,14 @@ a h4 {
 
 a h4:hover {
   color: #FB5B05;
+}
+
+hr { 
+    display: block;
+    border-style:dashed;
+    border-width: 0.5px;
+    width: 90%;
+    margin: 0 0 50px 0;
 }
 
 
