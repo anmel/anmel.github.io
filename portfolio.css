@@ -643,6 +643,15 @@ hr {
     height: 100px;
     width: 100px;
   }
+  
+  .quote {
+  width: 220px;
+}
+
+.quotebubble {
+  width: 260px;
+}
+
   .bubble1 {
     margin: 80px 0 0 30px;
     width: 10px;
