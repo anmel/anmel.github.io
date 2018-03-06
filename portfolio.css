@@ -598,9 +598,7 @@ hr {
   }
   .works {
     padding: 0;
-  }
-  .works img {
-    min-width: 90vw;
+  
   }
   .works iframe {
     width: 100%;
