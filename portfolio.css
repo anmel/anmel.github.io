@@ -439,6 +439,8 @@ p {
 
 
 /*-----P R O J E C T-----*/
+
+}
 .potter {
   width:100vw;
 }
@@ -550,6 +552,11 @@ h3 {
   width: 100%;
   height: auto;
   margin-bottom: 50px;
+  
+}
+.works video {
+  width: 100%;
+  height: auto;
   
 }
 
