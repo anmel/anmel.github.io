@@ -432,7 +432,7 @@ p {
 .project p {
   margin: 0 auto;
   padding-top: 20px;
-  text-align: center;
+  text-align: left;
   height: 130px;
   font-size: 12pt;
 }
