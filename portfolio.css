@@ -408,7 +408,7 @@ h4 {
   margin-right: auto; 
   width: 100%;
 }
-a {
+a:link {
    text-decoration: none;
 }
 
